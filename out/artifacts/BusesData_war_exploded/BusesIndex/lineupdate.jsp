@@ -1,0 +1,51 @@
+<%@ page import="java.sql.Connection" %>
+<%@ page import="java.sql.DriverManager" %>
+<%@ page import="java.sql.Statement" %>
+<%@ page import="java.sql.SQLException" %><%--
+  Created by IntelliJ IDEA.
+  User: Allen
+  Date: 2017/2/16
+  Time: 16:35
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>lineupdate</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<%
+    request.setCharacterEncoding("utf-8");
+    response.setContentType("text/html;charset=utf-8");
+    try {
+        Class.forName("com.mysql.jdbc.Driver");
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+    Connection conn= DriverManager.getConnection("jdbc:mysql://115.159.216.56:3306/busesdata?useUnicode=true&characterEncoding=UTF-8","root","qZL3KXdoWRFj");
+    Statement stat=conn.createStatement();
+
+    //主键
+    String iLineId= (String) session.getAttribute("iLineId");
+    //线路编号
+    String sLineNum=request.getParameter("sLineNum");
+    //发车时间
+    String tStartTime=request.getParameter("tStartTime");
+    //收班时间
+    String tEndTime=request.getParameter("tEndTime");
+    //线路名称
+    String sSiteVersion=new String(request.getParameter("sSiteVersion").getBytes("ISO-8859-1"),"utf-8");
+    String sql="update t_lineinfo set sLineNum='"+sLineNum+"',tStartTime='"+tStartTime+"',tEndTime='"+tEndTime+"',sSiteVersion='"+sSiteVersion+"' where iLineId="+iLineId+"";
+    int flag= 0;
+    flag = stat.executeUpdate(sql);
+    if(flag==1){
+        out.print("<script language='javaScript'>alert('修改成功，点击确定返回');</script>");
+        response.setHeader("refresh","1;url=linemana.jsp");
+    }else {
+        out.print("<script language='javaScript'>alert('修改失败，点击确定返回');</script>");
+        response.setHeader("refresh","1;url=linemana.jsp");
+    }
+%>
+</body>
+</html>

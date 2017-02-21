@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+header {
+	position: relative;
+	width: 100%;
+	min-width: 600px;
+
+}
+
+header ul li {
+	margin-left: 20px;
+	margin-top: 2px;
+}
+
+section {
+	position: relative;
+	width: 90%;
+	min-width: 600px;
+	top:50px;
+	margin: 0 auto;
+
+}
+
+section form table tr th,td {
+	text-align: center;
+}
+
+.input-size {
+	width: 200px;
+	height: 30px;
+}
+
+.form-align {
+	text-align: right;
+}
+
+.btn-container {
+	text-align: center;
+
+}
+
+.btn-container input {
+	margin: 10px 20px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>新增车站</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-dist/css/list.css">
+    <link rel="stylesheet" type="text/css" href="css/edit.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+<body>
+<header>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="javascript:history.go(-1);">返回</a></li>
+    </ul>
+</header>
+<section>
+    <form id="form1" name="form1" action="stationadddo.jsp" method="get">
+        <dl>
+            <dt>增加车站</dt>
+            <dd>
+                车站名称<input type="text" name="iSiteName" id="iSiteName" class="form-control input-sm"
+                           placeholder="输入车站名称" required autofocus/>
+            </dd>
+            <dd>
+                车站编号<input type="number" name="iSiteNum" id="iSiteNum" class="form-control input-sm"
+                           placeholder="输入车站编号" required/>
+            </dd>
+            <dd>
+                备注<input type="text" name="sSiteNote" id="sSiteNote" class="form-control input-sm"
+                         placeholder="输入备注" />
+            </dd>
+            <dd class="btn-container">
+                <input type="submit" name="" value="确 定" class="btn btn-primary btn-sm ">
+                <input type="reset" name="" value="重 置" class="btn btn-danger btn-sm">
+                <input type="button" value="test" class="btn" onclick="test111()">
+            </dd>
+        </dl>
+    </form>
+</section>
+</body>
+</html>
+<script type="text/javascript">
+    function test111() {
+        alert(document.getElementById("sCompName").value);
+    }
+</script>
