@@ -34,7 +34,8 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
     tStartTime,
     tEndTime,
     sSiteVersion,
-    bLineActive
+    bLineActive,
+    bUpDown
     FROM
     t_lineinfo
 </sql:query>
@@ -75,10 +76,11 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
         <table class="table table-bordered table-hover">
             <tr>
                 <th>操作</th>
+                <th>线路</th>
                 <th>线路编号</th>
                 <th>发车时间</th>
                 <th>收班时间</th>
-                <th>线路</th>
+                <th>上/下行</th>
                 <th>是否启用</th>
                 <th>车站详情</th>
             </tr>
@@ -86,11 +88,12 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
             <c:forEach var="row" items="${result.rows}">
                 <tr>
                     <td><a href='lineedit.jsp?iLineId="${row.iLineId}"'>修改</a>&nbsp;
-                        <a href='linedelete.jsp?iLineId="${row.iLineId}"'>删除</a></td>
+                        <a href='javascript:confirmDelete(${row.iLineId})'>删除</a></td>
+                    <td><c:out value="${row.sSiteVersion}"/></td>
                     <td><c:out value="${row.sLineNum}"/></td>
                     <td><c:out value="${row.tStartTime}"/></td>
                     <td><c:out value="${row.tEndTime}"/></td>
-                    <td><c:out value="${row.sSiteVersion}"/></td>
+                    <td><c:out value="${row.bUpDown}"/></td>
                     <td><c:out value="${row.bLineActive}"/></td>
                     <td><a href='stationmana.jsp?iLineId="${row.iLineId}"'>线路车站</a></td>
                 </tr>
@@ -111,8 +114,10 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
 </body>
 </html>
 <script type="text/javascript">
-    function add() {
-        location.href="stationmacadd.html";
+    function confirmDelete(userId){
+        if(confirm("是否确认删除?")){
+            window.location="linedelete.jsp?iLineId="+userId;
+        }
     }
 </script>
 

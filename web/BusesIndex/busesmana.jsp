@@ -50,9 +50,6 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
         <li class="active"><a href="javascript:void(0);">车辆管理</a></li>
         <li><a href="busesadd.html">增加车辆</a></li>
         <li><a href="javascript:void(0);"></a></li>
-        <li><a href="javascript:void(0);"></a></li>
-        <li><a href="javascript:void(0);"></a></li>
-        <li><a href="javascript:void(0);"></a></li>
     </ul>
 </header>
 <section>
@@ -82,7 +79,7 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
             <c:forEach var="row" items="${result.rows}">
                 <tr>
                     <td><a href='busesedit.jsp?iBusId="${row.iBusId}"'>修改</a>&nbsp;
-                        <a href='busesdelete.jsp?iBusLineId="${row.iBusLineId}"'>删除</a></td>
+                        <a href='javascript:confirmDelete(${row.iBusLineId})'>删除</a></td>
                     <td><c:out value="${row.sBusNum}"/></td>
                     <td><c:out value="${row.sLicenseNum}"/></td>
                     <td><c:out value="${row.sBusNote}"/></td>
@@ -105,5 +102,12 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
 </section>
 </body>
 </html>
+<script type="text/javascript">
+    function confirmDelete(iBusLineId){
+        if(confirm("是否确认删除?")) {
+            window.location = "busesdelete.jsp?iBusLineId=" + iBusLineId;
+        }
+    }
+</script>
 
 

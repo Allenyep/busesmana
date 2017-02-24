@@ -84,7 +84,7 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
             <c:forEach var="row" items="${result.rows}">
                 <tr>
                     <td><a href='stationedit.jsp?iSiteId="${row.iSiteId}"'>修改</a>&nbsp;
-                        <a href='stationdelete.jsp?iSiteId="${row.iSiteId}"'>删除</a></td>
+                        <a href='javascript:confirmDelete(${row.iSiteId})'>删除</a></td>
                     <td><c:out value="${row.iSiteNum}"/></td>
                     <td><c:out value="${row.iSiteName}"/></td>
                     <td><c:out value="${row.bSiteActive}"/></td>
@@ -107,5 +107,12 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
 </section>
 </body>
 </html>
+<script type="text/javascript">
+    function confirmDelete(userId){
+        if(confirm("是否确认删除?")){
+            window.location="stationdelete.jsp?iSiteId="+userId;
+        }
+    }
+</script>
 
 

@@ -29,6 +29,7 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
 
 <sql:query dataSource="${snapshot}" var="result">
     SELECT
+    t_compinfo.sCompActive,
     t_compinfo.iCompId,
     t_compinfo.sCompName,
     t_compinfo.sCompNote,
@@ -77,17 +78,20 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                 <th>公司代号</th>
                 <th>公司名称</th>
                 <th>备注</th>
-                <th>所属线路</th>
+                <th>是否启用</th>
+                <th>所属</th>
             </tr>
             <%--这行开始做for循环--%>
             <c:forEach var="row" items="${result.rows}">
                 <tr>
-                    <td><a href='compedit.jsp?iCompId="${row.iCompId}"'>修改</a>&nbsp;
-                        <a href='compdelete.jsp?iCompId="${row.iCompId}"'>删除</a></td>
+                    <td><a href='compedit.jsp?iCompId=${row.iCompId}'>修改</a>&nbsp;
+                        <a href='javascript:confirmDelete(${row.iCompId})'>删除</a></td>
                     <td><c:out value="${row.sCompNum}"/></td>
                     <td><c:out value="${row.sCompName}"/></td>
                     <td><c:out value="${row.sCompNote}"/></td>
-                    <td><a href='linemana.jsp?iCompId="${row.iCompId}"'>公司线路</a></td>
+                    <td><c:out value="${row.sCompActive}"/></td>
+                    <td><a href='linemana.jsp?iCompId="${row.iCompId}"'>公司线路</a>&nbsp;
+                        <a href='busesmana.jsp?iCompId=${row.iCompId}'>公司车辆</a></td>
                 </tr>
             </c:forEach>
         </table>
@@ -106,8 +110,10 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
 </body>
 </html>
 <script type="text/javascript">
-    function add() {
-        location.href="stationmacadd.html";
+    function confirmDelete(iCompId) {
+        if(confirm("是否确认删除?")) {
+            location.href = "compdelete.jsp?iCompId=" + iCompId;
+        }
     }
 </script>
 
