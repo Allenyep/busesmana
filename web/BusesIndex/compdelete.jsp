@@ -24,7 +24,7 @@
         Connection conn= DriverManager.getConnection("jdbc:mysql://115.159.216.56:3306/busesdata?useUnicode=true&characterEncoding=UTF-8","root","qZL3KXdoWRFj");
         Statement stat=conn.createStatement();
         String iCompId=request.getParameter("iCompId");
-        String sql="update t_compinfo set sCompActive='0' where iCompId="+iCompId+"";
+        String sql="update t_compinfo set sCompActive='0' where iCompId='"+iCompId+"'";
         int flag= 0;
         flag = stat.executeUpdate(sql);
         if(flag==1){

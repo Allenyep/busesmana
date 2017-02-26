@@ -52,7 +52,7 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
 <header>
     <ul class="nav nav-tabs" rel="">
         <li class="active"><a href="javascript:void(0);">线路管理</a></li>
-        <li><a href="lineadd.html">增加线路</a></li>
+        <li><a href="lineadd.jsp">增加线路</a></li>
         <li><a href="javascript:void(0);"></a></li>
         <li><a href="javascript:void(0);"></a></li>
         <li><a href="javascript:void(0);"></a></li>
@@ -93,8 +93,8 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                     <td><c:out value="${row.sLineNum}"/></td>
                     <td><c:out value="${row.tStartTime}"/></td>
                     <td><c:out value="${row.tEndTime}"/></td>
-                    <td><c:out value="${row.bUpDown}"/></td>
-                    <td><c:out value="${row.bLineActive}"/></td>
+                    <td><c:out value="${row.bUpDown>0?'上行':'下行'}"/></td>
+                    <td><c:out value="${row.bLineActive>0?'是':'否'}"/></td>
                     <td><a href='stationmana.jsp?iLineId="${row.iLineId}"'>线路车站</a></td>
                 </tr>
             </c:forEach>

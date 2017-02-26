@@ -48,7 +48,7 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
 <header>
     <ul class="nav nav-tabs" rel="">
         <li class="active"><a href="javascript:void(0);">车辆管理</a></li>
-        <li><a href="busesadd.html">增加车辆</a></li>
+        <li><a href="busesadd.jsp">增加车辆</a></li>
         <li><a href="javascript:void(0);"></a></li>
     </ul>
 </header>
@@ -83,15 +83,12 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                     <td><c:out value="${row.sBusNum}"/></td>
                     <td><c:out value="${row.sLicenseNum}"/></td>
                     <td><c:out value="${row.sBusNote}"/></td>
-                    <td><c:out value="${row.bBusLineActive}"/></td>
+                    <td><c:out value="${row.bBusLineActive>0?'是':'否'}"/></td>
                     <td><c:out value="${row.sLineNum}"/></td>
                 </tr>
             </c:forEach>
         </table>
         <P class="btn-container">
-            <%--<input type="button" value="增加mac" name="" class="btn btn-primary btn-sm" onclick="add()">--%>
-            <%--<input type="button" value="更新mac" name="" class="btn btn-success btn-sm" onclick="update()">--%>
-            <%--<input type="button" value="删除mac" name="" class="btn btn-danger btn-sm" onclick="deleted()">--%>
 
         <ul class="list-inline" style="float: right;">
             <li><a href="#">上一页</a></li>

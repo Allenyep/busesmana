@@ -15,6 +15,35 @@
 </head>
 <body>
 <%
+    response.setContentType("text/html;charset=utf-8");
+    request.setCharacterEncoding("UTF-8");
+
+    //线路名称
+    String sSiteVersion=new String(request.getParameter("sSiteVersion").getBytes("ISO-8859-1"),"utf-8");
+    //线路编号
+    String sLineNum=request.getParameter("sLineNum");
+    //所属公司编号
+    String sCompNum=request.getParameter("sCompNum");
+    //站点编号,起点，终点，发车站
+    String iOSite=request.getParameter("iOSite");
+    String iDSite=request.getParameter("iDSite");
+    String iSSite=request.getParameter("iSSite");
+    //上下行
+    String bUpDown=request.getParameter("bUpDown");
+    //发车时间
+    String tStartTime1=request.getParameter("tStartTime1");
+    String tStartTime2=request.getParameter("tStartTime2");
+    String tStartTime=new StringBuilder().append(tStartTime1).append(tStartTime2).append("00").toString();
+    //收班时间
+    String tEndTime1=request.getParameter("tEndTime1");
+    String tEndTime2=request.getParameter("tEndTime2");
+    String tEndTime=new StringBuilder().append(tEndTime1).append(tEndTime2).append("00").toString();
+//    //是否启用
+//    String bLineActive=request.getParameter("bLineActive");
+    //启用时间，时间戳自动添加
+    //String dLineActiveTime=request.getParameter("dLineActiveTime");
+    //备注
+    String sLineNote=request.getParameter("sLineNote");
     Connection conn=null;
     Statement stat=null;
     try{
@@ -36,34 +65,8 @@
         System.out.println("连接数据库失败 ！");
         e.printStackTrace();
     }
-    response.setContentType("text/html;charset=utf-8");
-    request.setCharacterEncoding("UTF-8");
 
-    //线路名称
-    String sSiteVersion=new String(request.getParameter("sSiteVersion").getBytes("ISO-8859-1"),"utf-8");
-    //线路编号
-    String sLineNum=request.getParameter("sLineNum");
-    //所属公司编号
-    String sCompNum=request.getParameter("sCompNum");
-    //站点编号,起点，终点，发车站
-    String iOSite=request.getParameter("iOSite");
-    String iDSite=request.getParameter("iDSite");
-    String iSSite=request.getParameter("iSSite");
-    //上下行
-    String bUpDown=request.getParameter("bUpDown");
-    //发车时间
-    String tStartTime=request.getParameter("tStartTime");
-    //收班时间
-    String tEndTime=request.getParameter("tEndTime");
-    //是否启用
-    String bLineActive=request.getParameter("bLineActive");
-    //启用时间，时间戳自动添加
-    //String dLineActiveTime=request.getParameter("dLineActiveTime");
-    //备注
-    String sLineNote=request.getParameter("sLineNote");
-
-
-    String sql = "insert into t_lineinfo(iLineId,sLineNum,sCompNum,iOSite,iDSite,iSSite,bUpDown,tStartTime,tEndTime,bLineActive,dLineActiveTime,sSiteVersion,sLineNote) values(null,'"+sLineNum+"','"+sCompNum+"','"+iOSite+"','"+iDSite+"','"+iSSite+"','"+bUpDown+"','"+tStartTime+"','"+tEndTime+"','"+bLineActive+"',"+null+",'"+sSiteVersion+"','"+sLineNote+"')";
+    String sql = "insert into t_lineinfo(iLineId,sLineNum,sCompNum,iOSite,iDSite,iSSite,bUpDown,tStartTime,tEndTime,bLineActive,dLineActiveTime,sSiteVersion,sLineNote) values(null,'"+sLineNum+"','"+sCompNum+"','"+iOSite+"','"+iDSite+"','"+iSSite+"','"+bUpDown+"','"+tStartTime+"','"+tEndTime+"','"+1+"',"+null+",'"+sSiteVersion+"','"+sLineNote+"')";
     int bool= 0;
     try {
         bool = stat.executeUpdate(sql);

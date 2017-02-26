@@ -84,22 +84,18 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
             <%--这行开始做for循环--%>
             <c:forEach var="row" items="${result.rows}">
                 <tr>
-                    <td><a href='compedit.jsp?iCompId=${row.iCompId}'>修改</a>&nbsp;
-                        <a href='javascript:confirmDelete(${row.iCompId})'>删除</a></td>
+                    <td><a href='compedit.jsp?iCompId="${row.iCompId}"'>修改</a>&nbsp;
+                        <a href='javascript:confirmDelete("${row.iCompId}")'>删除</a></td>
                     <td><c:out value="${row.sCompNum}"/></td>
                     <td><c:out value="${row.sCompName}"/></td>
                     <td><c:out value="${row.sCompNote}"/></td>
-                    <td><c:out value="${row.sCompActive}"/></td>
+                    <td><c:out value="${row.sCompActive>0?'是':'否'}"/></td>
                     <td><a href='linemana.jsp?iCompId="${row.iCompId}"'>公司线路</a>&nbsp;
                         <a href='busesmana.jsp?iCompId=${row.iCompId}'>公司车辆</a></td>
                 </tr>
             </c:forEach>
         </table>
         <P class="btn-container">
-            <%--<input type="button" value="增加mac" name="" class="btn btn-primary btn-sm" onclick="add()">--%>
-            <%--<input type="button" value="更新mac" name="" class="btn btn-success btn-sm" onclick="update()">--%>
-            <%--<input type="button" value="删除mac" name="" class="btn btn-danger btn-sm" onclick="deleted()">--%>
-
         <ul class="list-inline" style="float: right;">
             <li><a href="#">上一页</a></li>
             <li><a href="#">下一页</a></li>

@@ -87,7 +87,7 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                         <a href='javascript:confirmDelete(${row.iSiteId})'>删除</a></td>
                     <td><c:out value="${row.iSiteNum}"/></td>
                     <td><c:out value="${row.iSiteName}"/></td>
-                    <td><c:out value="${row.bSiteActive}"/></td>
+                    <td><c:out value="${row.bSiteActive>0?'是':'否'}"/></td>
                     <td><c:out value="${row.sSiteNote}"/></td>
                     <td><a href='stationmana.jsp?iSiteId="${row.iSiteId}"'>过站线路</a></td>
                 </tr>
