@@ -59,15 +59,13 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
 </header>
 <section>
     <article>
-        <form id="form1" name="form1" method="post" action=""
+        <form id="form1" name="form1" method="post" action="compquery.jsp"
               class="form-inline form-group form-align">
             <select class="form-control">
-                <option>公司编号</option>
                 <option>公司名称</option>
-                <option>备注</option>
             </select>
-            <input type="input" name="suserName" id="suserName"
-                   placeholder="请输入查询内容!" class="form-control input-sm input-size " />
+            <input type="input" name="sCompName" id="sCompName"
+                   placeholder="请输入查询公司名称!" class="form-control input-sm input-size " />
             <input type="submit" name="submit" value="查 询" class="btn btn-warning " />
         </form>
     </article>
@@ -90,8 +88,8 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                     <td><c:out value="${row.sCompName}"/></td>
                     <td><c:out value="${row.sCompNote}"/></td>
                     <td><c:out value="${row.sCompActive>0?'是':'否'}"/></td>
-                    <td><a href='linemana.jsp?iCompId="${row.iCompId}"'>公司线路</a>&nbsp;
-                        <a href='busesmana.jsp?iCompId=${row.iCompId}'>公司车辆</a></td>
+                    <td><a href='complinequery.jsp?sCompNum=${row.sCompNum}&sCompName="${row.sCompName}"'>公司线路</a>&nbsp;
+                        <a href='compbusesquery.jsp?sCompNum=${row.sCompNum}&sCompName="${row.sCompName}"'>公司车辆</a></td>
                 </tr>
             </c:forEach>
         </table>

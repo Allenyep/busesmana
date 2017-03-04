@@ -1,42 +1,17 @@
-<%--
+<%@ page import="java.sql.Connection" %>
+<%@ page import="java.sql.DriverManager" %>
+<%@ page import="java.sql.Statement" %>
+<%@ page import="java.sql.ResultSet" %><%--
   Created by IntelliJ IDEA.
   User: Allen
   Date: 2017/2/16
   Time: 14:09
   To change this template use File | Settings | File Templates.
 --%>
-<%--
-  Created by IntelliJ IDEA.
-  User: Allen
-  Date: 2017/2/12
-  Time: 20:25
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="java.io.*,java.util.*,java.sql.*"%>
-<%@ page import="javax.servlet.http.*,javax.servlet.*" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
 
-<!--
-JDBC 驱动名及数据库 URL
-数据库的用户名与密码，需要根据自己的设置
-useUnicode=true&characterEncoding=utf-8 防止中文乱码
--->
-<sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
-                   url="jdbc:mysql://115.159.216.56:3306/busesdata?useUnicode=true&characterEncoding=utf-8"
-                   user="root"  password="qZL3KXdoWRFj"/>
-
-<sql:query dataSource="${snapshot}" var="result">
-    SELECT
-    t_compinfo.sCompActive,
-    t_compinfo.iCompId,
-    t_compinfo.sCompName,
-    t_compinfo.sCompNote,
-    t_compinfo.sCompNum
-    FROM
-    t_compinfo
-</sql:query>
 
 
 <!DOCTYPE html>
@@ -47,6 +22,7 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
     <link rel="stylesheet" type="text/css" href="bootstrap-dist/css/list.css">
 </head>
 <body>
+
 <header>
     <ul class="nav nav-tabs" rel="">
         <li class="active"><a href="javascript:void(0);">公司管理</a></li>
@@ -80,18 +56,43 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                 <th>所属</th>
             </tr>
             <%--这行开始做for循环--%>
-            <c:forEach var="row" items="${result.rows}">
-                <tr>
-                    <td><a href='compedit.jsp?iCompId="${row.iCompId}"'>修改</a>&nbsp;
-                        <a href='javascript:confirmDelete("${row.iCompId}")'>删除</a></td>
-                    <td><c:out value="${row.sCompNum}"/></td>
-                    <td><c:out value="${row.sCompName}"/></td>
-                    <td><c:out value="${row.sCompNote}"/></td>
-                    <td><c:out value="${row.sCompActive>0?'是':'否'}"/></td>
-                    <td><a href='complinequery.jsp?sCompNum=${row.sCompNum}&sCompName="${row.sCompName}"'>公司线路</a>&nbsp;
-                        <a href='compbusesquery.jsp?sCompNum=${row.sCompNum}&sCompName="${row.sCompName}"'>公司车辆</a></td>
-                </tr>
-            </c:forEach>
+            <%
+                request.setCharacterEncoding("utf-8");
+                response.setContentType("text/html;charset=utf-8");
+                String sCompName=request.getParameter("sCompName");
+                try {
+                    Class.forName("com.mysql.jdbc.Driver");
+                    Connection conn= DriverManager.getConnection("jdbc:mysql://115.159.216.56:3306/busesdata?useUnicode=true&characterEncoding=UTF-8","root","qZL3KXdoWRFj");
+                    Statement stat=conn.createStatement();
+                    String sql="SELECT t_compinfo.sCompActive, t_compinfo.iCompId,t_compinfo.sCompName,t_compinfo.sCompNote,t_compinfo.sCompNum FROM t_compinfo where sCompName like '%"+sCompName+"%'";
+                    ResultSet rs=stat.executeQuery(sql);
+                    while (rs.next()){
+//                        out.print(rs.getString(5));//sCompNum
+//                        out.print(rs.getString(3));//sCompName
+//                        out.print(rs.getString(4));//sCompNote
+//                        out.print(rs.getString(1));//sCompActive
+                          String bool="否";
+                          if(rs.getString(1).equals("1")) {
+                              bool = "是";
+                          }
+                          System.out.print(bool);
+                        %>
+                    <tr>
+                        <td><a href='compedit.jsp?iCompId="<%=rs.getString(2)%>"'>修改</a>&nbsp;
+                            <a href='javascript:confirmDelete("<%=rs.getString(2)%>")'>删除</a></td>
+                        <td><%=rs.getString(5)%></td>
+                        <td><%=rs.getString(3)%></td>
+                        <td><%=rs.getString(4)%></td>
+                        <td><%=bool%></td>
+                        <td><a href='complinequery.jsp?sCompNum=<%=rs.getString(2)%>&sCompName="<%=rs.getString(3)%>"'>公司线路</a>&nbsp;
+                            <a href='compbusesquery.jsp?sCompNum=<%=rs.getString(2)%>&sCompName="<%=rs.getString(3)%>"'>公司车辆</a></td>
+                    </tr>
+            <%
+                    }
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+            %>
         </table>
         <P class="btn-container">
         <ul class="list-inline" style="float: right;">

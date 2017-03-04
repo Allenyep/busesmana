@@ -37,24 +37,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="busesmana.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesmana.jsp">
+      <file leaf-file-name="compquery.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/BusesIndex/compquery.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
-              <caret line="85" column="68" lean-forward="false" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="68" />
-              <folding />
+            <state relative-caret-position="212">
+              <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#form#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1488542616502" expanded="true" signature="2582:2748" ph="SELECT t_com... t_compinfo" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stationupdate.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationupdate.jsp">
+      <file leaf-file-name="stationquery.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationquery.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="38" column="79" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="79" />
+            <state relative-caret-position="506">
+              <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
               <folding>
-                <marker date="1487651375016" expanded="true" signature="1154:1266" ph="update t_sit... " />
+                <marker date="1488543339949" expanded="true" signature="2495:2609" ph="SELECT iSite... t_siteinfo" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-176">
+              <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,86 +75,80 @@
       <file leaf-file-name="stationmana.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationmana.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="839">
-              <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="110">
+              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stationmana.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationmana.jsp">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/BusesIndex/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="89" column="65" lean-forward="false" selection-start-line="89" selection-start-column="65" selection-end-line="89" selection-end-column="65" />
+            <state relative-caret-position="110">
+              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compmana.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/BusesIndex/compmana.jsp">
+      <file leaf-file-name="busesmana.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesmana.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="88" column="61" lean-forward="true" selection-start-line="88" selection-start-column="61" selection-end-line="88" selection-end-column="61" />
+            <state relative-caret-position="110">
+              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linemana.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/BusesIndex/linemana.jsp">
+      <file leaf-file-name="linemana.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/BusesIndex/linemana.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="92" column="61" lean-forward="true" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
+            <state relative-caret-position="3256">
+              <caret line="148" column="25" lean-forward="false" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lineadddo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/BusesIndex/lineadddo.jsp">
+      <file leaf-file-name="stationadd.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationadd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="871">
-              <caret line="71" column="39" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+            <state relative-caret-position="154">
+              <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linequery.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/BusesIndex/linequery.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
               <folding>
-                <marker date="1488123774434" expanded="true" signature="2453:2483" ph="insert into t_lineinfo... " />
-                <marker date="1488123774434" expanded="true" signature="2453:2646" ph="insert into t_lineinfo... " />
-                <marker date="1488123774434" expanded="true" signature="2453:2731" ph="insert into t_lineinfo... " />
-                <marker date="1488123774434" expanded="true" signature="2453:2738" ph="insert into t_lineinfo... " />
-                <marker date="1488123774434" expanded="true" signature="2453:2744" ph="insert into t_lineinfo... " />
-                <marker date="1488123774434" expanded="true" signature="2453:2782" ph="insert into t_lineinfo... " />
+                <marker date="1488543013285" expanded="true" signature="2721:2806" ph="SELECT iLine... " />
+                <marker date="1488543013285" expanded="true" signature="2721:2807" ph="SELECT\n iLi... t_lineinfo" />
+                <marker date="1488543013285" expanded="true" signature="2721:2823" ph="SELECT iLine... t_lineinfo" />
+                <marker date="1488543013285" expanded="true" signature="2721:2824" ph="SELECT iLine... WHERE" />
+                <marker date="1488543013285" expanded="true" signature="2721:2831" ph="SELECT iLine... t_lineinfo" />
+                <marker date="1488543013285" expanded="true" signature="2721:2839" ph="SELECT iLine... t_lineinfo" />
+                <marker date="1488543013285" expanded="true" signature="2721:2840" ph="SELECT iLine... WHERE" />
+                <marker date="1488543013285" expanded="true" signature="2721:2852" ph="SELECT iLine... t_lineinfo" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lineadd.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/BusesIndex/lineadd.jsp">
+      <file leaf-file-name="busesquery.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesquery.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="75" column="3" lean-forward="false" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="busesadd.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesadd.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="79" column="48" lean-forward="false" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="440">
+              <caret line="83" column="21" lean-forward="true" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+              <folding>
+                <marker date="1488543142274" expanded="true" signature="2508:2792" ph="SELECT t_bus... t_businfo" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,8 +158,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -173,23 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/BusesIndex/busmac.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/stationmacadd.html" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/stationmac.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/stationlinemana.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/buseslinemana.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/mac.html" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/stationmac.html" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/addstationmac.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/compupdata.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/stationadd.html" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/404.html" />
-        <option value="$PROJECT_DIR$/src/sqlHelper.java" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/busesadddo.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/compadddo.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/compedit.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/compupdate.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/linedelete.jsp" />
         <option value="$PROJECT_DIR$/web/BusesIndex/lineedit.jsp" />
         <option value="$PROJECT_DIR$/web/BusesIndex/lineupdate.jsp" />
         <option value="$PROJECT_DIR$/web/BusesIndex/stationadddo.jsp" />
@@ -202,28 +192,45 @@
         <option value="$PROJECT_DIR$/web/BusesIndex/busesedit.jsp" />
         <option value="C:/apache-tomcat-7.0.75-windows-x64/apache-tomcat-7.0.75/lib/servlet-api.jar!/javax/servlet/ServletResponse.class" />
         <option value="$PROJECT_DIR$/web/login_in.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/BusesIndex/busesadd.html" />
         <option value="$PROJECT_DIR$/src/compinfo.java" />
         <option value="$PROJECT_DIR$/src/DBuitl/DButil.java" />
         <option value="$PROJECT_DIR$/web/compadddo2.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/compadd.html" />
         <option value="$PROJECT_DIR$/src/bean/CompInfo.java" />
         <option value="$PROJECT_DIR$/web/BusesIndex/compadddo2.jsp" />
         <option value="$PROJECT_DIR$/src/dao/CompDao.java" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/compmana.jsp" />
         <option value="$PROJECT_DIR$/web/BusesIndex/compdelete.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/index.html" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/busesmana.html" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/linemana.html" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/stationmana.html" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/busesmana.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/stationmana.jsp" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/linemana.jsp" />
         <option value="$PROJECT_DIR$/web/BusesIndex/lineadd.html" />
-        <option value="$PROJECT_DIR$/web/BusesIndex/lineadddo.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/linemana.html" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/servlet/CompQuery.java" />
+        <option value="$PROJECT_DIR$/src/servlet/CompQuery.java" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/compedit.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/busquery.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/busesmana.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/compline.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/linemana.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/linestationadd.jsp" />
         <option value="$PROJECT_DIR$/web/BusesIndex/lineadd.jsp" />
         <option value="$PROJECT_DIR$/web/BusesIndex/busesadd.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/busesadddo.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/compmana.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/complinebusquery.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/linestationadd.html" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/compadd.html" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/linestationadddo.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/stationmana.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/lineadddo.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/complinestationquery.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/complinequery.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/compbusesquery.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/compquery.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/linequery.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/busesquery.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/stationquery.jsp" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/busesmana.html" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/stationmana.html" />
+        <option value="$PROJECT_DIR$/web/BusesIndex/index.html" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -246,8 +253,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -267,6 +274,16 @@
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BusesData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="BusesData" />
@@ -353,8 +370,8 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/pic/03ServletJsp" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="C:/apache-tomcat-7.0.75-windows-x64/apache-tomcat-7.0.75/lib" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -367,17 +384,78 @@
       <recent name="C:\Users\Allen\IdeaProjects\BusesData\web\BusesIndex\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.75">
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
+  <component name="RunManager" selected="Tomcat Server.busTomcat">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.75" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="BusesData:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_BusesData" />
+      </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62660" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BusesData:war exploded" />
+        </option>
+      </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -759,8 +837,8 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="Tomcat 7.0.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.75" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+    <configuration default="false" name="busTomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.75" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="BusesData:war exploded">
           <settings>
@@ -769,7 +847,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_75_BusesData" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_BusesData" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -778,7 +856,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51183" />
+        <option name="DEBUG_PORT" value="62660" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -826,11 +904,14 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BusesData:war exploded" />
+        </option>
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.75" />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.busTomcat" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -863,12 +944,18 @@
       <workItem from="1487989829625" duration="4840000" />
       <workItem from="1487997938491" duration="7340000" />
       <workItem from="1488078106060" duration="3154000" />
-      <workItem from="1488115773209" duration="7727000" />
+      <workItem from="1488115773209" duration="8200000" />
+      <workItem from="1488180643065" duration="5709000" />
+      <workItem from="1488203057158" duration="2172000" />
+      <workItem from="1488244394948" duration="1760000" />
+      <workItem from="1488248310624" duration="19609000" />
+      <workItem from="1488365449905" duration="9331000" />
+      <workItem from="1488518074275" duration="17866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140184000" />
+    <option name="totallyTimeSpent" value="197104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -880,13 +967,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3643533" sideWeight="0.5043924" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44080338" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -895,19 +982,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3643533" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30232558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53154576" sideWeight="0.4956076" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27378437" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22712934" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16105418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30866808" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -916,6 +1003,40 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44080338" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1295754" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30232558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27378437" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30866808" sideWeight="0.49707174" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -939,19 +1060,25 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/BusesIndex/lineadddo.jsp</url>
-          <line>71</line>
+          <url>file://$PROJECT_DIR$/web/BusesIndex/linestationadddo.jsp</url>
+          <line>38</line>
           <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/BusesIndex/lineadddo.jsp</url>
-          <line>69</line>
+          <line>73</line>
           <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/BusesIndex/lineadddo.jsp</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -960,164 +1087,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/4b499bb8/ab20cac1-6b59-4cca-a6ae-c0d3dc254cc5/busesdata.t_macsite">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4b499bb8/ab20cac1-6b59-4cca-a6ae-c0d3dc254cc5/busesdata.t_macinfo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ab20cac1-6b59-4cca-a6ae-c0d3dc254cc5/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationmac.html" />
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/buseslinemana.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationmacadd.html" />
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/mac.html" />
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/addstationmac.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/station.html" />
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationlinemana.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/404.html" />
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/blank_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sqlHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/linedelete.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="23" column="154" lean-forward="false" selection-start-line="23" selection-start-column="154" selection-end-line="23" selection-end-column="154" />
-          <folding>
-            <marker date="1487651285496" expanded="true" signature="889:941" ph="update t_lin... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/lineedit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="34" column="81" lean-forward="false" selection-start-line="34" selection-start-column="81" selection-end-line="34" selection-end-column="81" />
-          <folding>
-            <marker date="1487651305113" expanded="true" signature="1402:1441" ph="select * fro... t_lineinfo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationadddo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding>
-            <marker date="1487651335732" expanded="true" signature="1459:1596" ph="insert into t_siteinfo... " />
-            <marker date="1487651335732" expanded="true" signature="1459:1612" ph="insert into t_siteinfo... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationdelete.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="23" column="154" lean-forward="false" selection-start-line="23" selection-start-column="154" selection-end-line="23" selection-end-column="154" />
-          <folding>
-            <marker date="1487651347997" expanded="true" signature="892:944" ph="update t_sit... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationedit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="81" lean-forward="false" selection-start-line="34" selection-start-column="81" selection-end-line="34" selection-end-column="81" />
-          <folding>
-            <marker date="1487651365227" expanded="true" signature="1355:1394" ph="select * fro... t_siteinfo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesedit.html" />
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationadd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/apache-tomcat-7.0.75-windows-x64/apache-tomcat-7.0.75/lib/servlet-api.jar!/javax/servlet/ServletResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login_in.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/PreparedStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="94" column="8" lean-forward="false" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compadd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesupdate.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="100" lean-forward="false" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="100" />
-          <folding>
-            <marker date="1487654516453" expanded="true" signature="1212:1346" ph="update t_com... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compadddo2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/BusesIndex/lineupdate.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1128,66 +1097,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compedit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <marker date="1487651234750" expanded="true" signature="1402:1441" ph="select * fro... t_compinfo" />
-            <marker date="1487651234750" expanded="true" signature="1402:1451" ph="select * fro... t_compinfo" />
-            <marker date="1487651234750" expanded="true" signature="1402:1452" ph="select * fro... t_compinfo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compupdate.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding>
-            <marker date="1487651249727" expanded="true" signature="1344:1456" ph="update t_com... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compadddo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="50" column="39" lean-forward="true" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
-          <folding>
-            <marker date="1487651188278" expanded="true" signature="1576:1644" ph="insert into t_compinfo... " />
-            <marker date="1487651188278" expanded="true" signature="1576:1648" ph="insert into t_compinfo... " />
-            <marker date="1487651188278" expanded="true" signature="1576:1696" ph="insert into t_compinfo... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBuitl/DButil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="29" column="70" lean-forward="false" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bean/CompInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,7 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,54 +1118,6 @@
           <folding>
             <marker date="1488118937334" expanded="true" signature="932:984" ph="update t_com... " />
             <marker date="1488118937334" expanded="true" signature="932:997" ph="update t_com... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesmana.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="16" column="105" lean-forward="false" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/linemana.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="16" column="105" lean-forward="false" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesadddo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="47" lean-forward="true" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
-          <folding>
-            <marker date="1487651171650" expanded="true" signature="1730:1825" ph="insert into t_businfo... " />
-            <marker date="1487651171650" expanded="true" signature="1730:1836" ph="insert into t_businfo... " />
-            <marker date="1487651171650" expanded="true" signature="1730:1858" ph="insert into t_businfo... " />
-            <marker date="1487651171650" expanded="true" signature="1730:1872" ph="insert into t_compinfo... " />
-            <marker date="1487651171650" expanded="true" signature="1902:2033" ph="insert into t_busline... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesdelete.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="26" column="85" lean-forward="false" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="85" />
-          <folding>
-            <marker date="1487651929316" expanded="true" signature="896:953" ph="update t_bus... " />
           </folding>
         </state>
       </provider>
@@ -1270,89 +1134,412 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationupdate.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="38" column="79" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="79" />
+        <state relative-caret-position="836">
+          <caret line="38" column="79" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="79" />
           <folding>
             <marker date="1487651375016" expanded="true" signature="1154:1266" ph="update t_sit... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationmana.html">
+    <entry file="file://$PROJECT_DIR$/src/servlet/CompQuery.java" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="839">
-          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBuitl/DButil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/BusesData_war_exploded.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2574">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login_in.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="64" column="14" lean-forward="false" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compline.jsp" />
+    <entry file="jar://C:/apache-tomcat-7.0.75-windows-x64/apache-tomcat-7.0.75/lib/jasper.jar!/org/apache/jasper/servlet/JspServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2613">
+          <caret line="219" column="0" lean-forward="false" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/apache-tomcat-7.0.75-windows-x64/apache-tomcat-7.0.75/lib/tomcat7-websocket.jar!/org/apache/tomcat/websocket/server/WsFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/apache-tomcat-7.0.75-windows-x64/apache-tomcat-7.0.75/lib/catalina.jar!/org/apache/catalina/core/StandardWrapperValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/apache-tomcat-7.0.75-windows-x64/apache-tomcat-7.0.75/lib/catalina.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesdelete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding>
+            <marker date="1487651929316" expanded="true" signature="896:953" ph="update t_bus... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compedit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="48" column="58" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="58" />
+          <folding>
+            <marker date="1487651234750" expanded="true" signature="1402:1441" ph="select * fro... t_compinfo" />
+            <marker date="1487651234750" expanded="true" signature="1402:1451" ph="select * fro... t_compinfo" />
+            <marker date="1487651234750" expanded="true" signature="1402:1452" ph="select * fro... t_compinfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesadd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesmana.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="85" column="68" lean-forward="false" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="68" />
+        <state relative-caret-position="1210">
+          <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationmana.jsp">
+    <entry file="jar://C:/apache-tomcat-7.0.75-windows-x64/apache-tomcat-7.0.75/lib/jasper.jar!/org/apache/jasper/runtime/HttpJspBase.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="89" column="65" lean-forward="false" selection-start-line="89" selection-start-column="65" selection-end-line="89" selection-end-column="65" />
+        <state relative-caret-position="191">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compmana.jsp">
+    <entry file="jar://C:/apache-tomcat-7.0.75-windows-x64/apache-tomcat-7.0.75/lib/jasper.jar!/org/apache/jasper/servlet/JspServletWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="88" column="61" lean-forward="true" selection-start-line="88" selection-start-column="61" selection-end-line="88" selection-end-column="61" />
+        <state relative-caret-position="191">
+          <caret line="229" column="163" lean-forward="false" selection-start-line="229" selection-start-column="163" selection-end-line="229" selection-end-column="163" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="79" column="48" lean-forward="false" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/lineadddo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="71" column="39" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
-          <folding>
-            <marker date="1488123774434" expanded="true" signature="2453:2483" ph="insert into t_lineinfo... " />
-            <marker date="1488123774434" expanded="true" signature="2453:2646" ph="insert into t_lineinfo... " />
-            <marker date="1488123774434" expanded="true" signature="2453:2731" ph="insert into t_lineinfo... " />
-            <marker date="1488123774434" expanded="true" signature="2453:2738" ph="insert into t_lineinfo... " />
-            <marker date="1488123774434" expanded="true" signature="2453:2744" ph="insert into t_lineinfo... " />
-            <marker date="1488123774434" expanded="true" signature="2453:2782" ph="insert into t_lineinfo... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/BusesIndex/linemana.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="92" column="61" lean-forward="true" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
+        <state relative-caret-position="416">
+          <caret line="97" column="96" lean-forward="false" selection-start-line="97" selection-start-column="96" selection-end-line="97" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/BusesIndex/lineadd.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="75" column="3" lean-forward="false" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+        <state relative-caret-position="374">
+          <caret line="62" column="53" lean-forward="false" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesadd.jsp">
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationadddo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+        <state relative-caret-position="-594">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1487651335732" expanded="true" signature="1459:1612" ph="insert into t_siteinfo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/linestationadd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="98" lean-forward="true" selection-start-line="21" selection-start-column="98" selection-end-line="21" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compadddo2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/linestationadd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="68" column="71" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="68" selection-end-column="71" />
+          <folding>
+            <marker date="1488369477755" expanded="true" signature="2788:2866" ph="Select iSite... t_siteinfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesadddo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="48" column="57" lean-forward="true" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+          <folding>
+            <marker date="1488519147183" expanded="true" signature="1730:1823" ph="insert into t_businfo... " />
+            <marker date="1488519147183" expanded="true" signature="1730:1834" ph="insert into t_businfo... " />
+            <marker date="1488519147183" expanded="true" signature="1730:1856" ph="insert into t_businfo... " />
+            <marker date="1488519147183" expanded="true" signature="1730:1870" ph="insert into t_compinfo... " />
+            <marker date="1488519147183" expanded="true" signature="1900:2031" ph="insert into t_busline... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compupdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="33" column="100" lean-forward="true" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="100" />
+          <folding>
+            <marker date="1487651249727" expanded="true" signature="1344:1456" ph="update t_com... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationmana.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="88" column="62" lean-forward="false" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/linestationadddo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <marker date="1488531109874" expanded="true" signature="1156:1218" ph="SELECT max(i... t_siteline" />
+            <marker date="1488531109874" expanded="true" signature="1453:1568" ph="INSERT INTO t_siteline... " />
+            <marker date="1488531109874" expanded="true" signature="1453:1624" ph="INSERT INTO t_siteline... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/lineadddo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding>
+            <marker date="1488532563512" expanded="true" signature="2452:2482" ph="insert into t_lineinfo... " />
+            <marker date="1488532563512" expanded="true" signature="2452:2645" ph="insert into t_lineinfo... " />
+            <marker date="1488532563512" expanded="true" signature="2452:2730" ph="insert into t_lineinfo... " />
+            <marker date="1488532563512" expanded="true" signature="2452:2737" ph="insert into t_lineinfo... " />
+            <marker date="1488532563512" expanded="true" signature="2452:2743" ph="insert into t_lineinfo... " />
+            <marker date="1488532563512" expanded="true" signature="2452:2781" ph="insert into t_lineinfo... " />
+            <marker date="1488532563512" expanded="true" signature="2812:2971" ph="INSERT INTO t_siteline... " />
+            <marker date="1488532563512" expanded="true" signature="3002:3161" ph="INSERT INTO t_siteline... " />
+            <marker date="1488532563512" expanded="true" signature="3271:3430" ph="INSERT INTO t_siteline... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compadddo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+          <folding>
+            <marker date="1487651188278" expanded="true" signature="1576:1644" ph="insert into t_compinfo... " />
+            <marker date="1487651188278" expanded="true" signature="1576:1648" ph="insert into t_compinfo... " />
+            <marker date="1487651188278" expanded="true" signature="1576:1696" ph="insert into t_compinfo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compadd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="75" lean-forward="true" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/complinestationquery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="45" column="55" lean-forward="false" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+          <folding>
+            <marker date="1488540697806" expanded="true" signature="3304:3409" ph="SELECT iSite... t_siteinfo" />
+            <marker date="1488540697806" expanded="true" signature="3304:3410" ph="SELECT iSite... t_siteinfo" />
+            <marker date="1488540697806" expanded="true" signature="3304:3474" ph="SELECT iSite... t_siteinfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/complinequery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="31" column="55" lean-forward="false" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#form#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1488540697871" expanded="true" signature="2825:2937" ph="SELECT iLine... t_lineinfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compbusesquery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="31" column="55" lean-forward="false" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding>
+            <marker date="1488540782075" expanded="true" signature="2603:2705" ph="SELECT t_bus... " />
+            <marker date="1488540782075" expanded="true" signature="2603:2854" ph="SELECT t_bus... t_businfo" />
+            <marker date="1488540782075" expanded="true" signature="2603:2878" ph="SELECT t_bus... t_businfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compmana.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="89" column="50" lean-forward="false" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/compquery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#form#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1488542616502" expanded="true" signature="2582:2748" ph="SELECT t_com... t_compinfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/linequery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+          <folding>
+            <marker date="1488543013285" expanded="true" signature="2721:2806" ph="SELECT iLine... " />
+            <marker date="1488543013285" expanded="true" signature="2721:2807" ph="SELECT\n iLi... t_lineinfo" />
+            <marker date="1488543013285" expanded="true" signature="2721:2823" ph="SELECT iLine... t_lineinfo" />
+            <marker date="1488543013285" expanded="true" signature="2721:2824" ph="SELECT iLine... WHERE" />
+            <marker date="1488543013285" expanded="true" signature="2721:2831" ph="SELECT iLine... t_lineinfo" />
+            <marker date="1488543013285" expanded="true" signature="2721:2839" ph="SELECT iLine... t_lineinfo" />
+            <marker date="1488543013285" expanded="true" signature="2721:2840" ph="SELECT iLine... WHERE" />
+            <marker date="1488543013285" expanded="true" signature="2721:2852" ph="SELECT iLine... t_lineinfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesquery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="83" column="21" lean-forward="true" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+          <folding>
+            <marker date="1488543142274" expanded="true" signature="2508:2792" ph="SELECT t_bus... t_businfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationquery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+          <folding>
+            <marker date="1488543339949" expanded="true" signature="2495:2609" ph="SELECT iSite... t_siteinfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/busesmana.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/linemana.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3256">
+          <caret line="148" column="25" lean-forward="false" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationadd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/stationmana.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BusesIndex/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1376,7 +1563,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (BusesData)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

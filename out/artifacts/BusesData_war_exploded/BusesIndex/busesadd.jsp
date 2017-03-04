@@ -58,26 +58,19 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
             </dd>
             <dd>
                 所属公司编号
-                <select name="select" id="select_k1" class="form-control">
+                <select name="sCompNum" id="select_k1" class="form-control">
                     <option value="选择公司">选择公司</option>
                     <c:forEach var="row" items="${result.rows}">
                         <option value="${row.sCompNum}"><c:out value="${row.sCompName}"/></option>
                     </c:forEach>
-                    <option value="公司2">公司2</option>
                 </select>
             </dd>
             <dd class="btn-container">
                 <input type="submit" name="" value="确 定" class="btn btn-primary btn-sm ">
                 <input type="reset" name="" value="重 置" class="btn btn-danger btn-sm">
-                <input type="button" value="test" class="btn" onclick="test111()">
             </dd>
         </dl>
     </form>
 </section>
 </body>
 </html>
-<script type="text/javascript">
-    function test111() {
-        alert(document.getElementById("sLicenseNum").value);
-    }
-</script>

@@ -55,7 +55,6 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                     <c:forEach var="row" items="${result.rows}">
                     <option value="${row.sCompNum}"><c:out value="${row.sCompName}"/></option>
                     </c:forEach>
-                    <option value="公司2">公司2</option>
                 </select>
             </dd>
             <dd>
@@ -64,7 +63,8 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                         <input type="number" name="iDSite" id="iDSite" class="form-control input-sm"
                        placeholder="终点编号" required/>
                         <input type="number" name="iSSite" id="iSSite" class="form-control input-sm"
-                       placeholder="发车站编号" required/>
+                       placeholder="发车站编号" required/><br/>
+                <a href="javascript:;" onclick="window.open('linestationadd.jsp','','scrollbars=yes,resizable=yes,width=700,height=900')" )>站点编号查询</a>
             </dd>
             <dd>
                 上下行<br>

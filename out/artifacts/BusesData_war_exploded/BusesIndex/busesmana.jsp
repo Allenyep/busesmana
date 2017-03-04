@@ -54,13 +54,13 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
 </header>
 <section>
     <article>
-        <form id="form1" name="form1" method="post" action=""
+        <form id="form1" name="form1" method="post" action="busesquery.jsp"
               class="form-inline form-group form-align">
-            <select class="form-control">
-                <option>车辆编号</option>
-                <option>线路编号</option>
+            <select class="form-control" name="row">
+                <option value="sLineNum">所属线路</option>
+                <option value="sLicenseNum">车牌号</option>
             </select>
-            <input type="input" name="suserName" id="suserName"
+            <input type="input" name="content" id="content"
                    placeholder="请输入查询内容!" class="form-control input-sm input-size " />
             <input type="submit" name="submit" value="查 询" class="btn btn-warning " />
         </form>

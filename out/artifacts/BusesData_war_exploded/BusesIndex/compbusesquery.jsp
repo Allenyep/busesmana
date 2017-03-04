@@ -10,31 +10,11 @@
 <%@ page import="javax.servlet.http.*,javax.servlet.*" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
-
-<!--
-JDBC 驱动名及数据库 URL
-数据库的用户名与密码，需要根据自己的设置
-useUnicode=true&characterEncoding=utf-8 防止中文乱码
--->
-<sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
-                   url="jdbc:mysql://115.159.216.56:3306/busesdata?useUnicode=true&characterEncoding=utf-8"
-                   user="root"  password="qZL3KXdoWRFj"/>
-
-<sql:query dataSource="${snapshot}" var="result">
-    SELECT
-    t_businfo.iBusId,
-    t_businfo.sBusNum,
-    t_businfo.sLicenseNum,
-    t_businfo.sBusNote,
-    t_busline.sLineNum,
-    t_busline.bBusLineActive,
-    t_busline.iBusLineId
-    FROM
-    t_businfo,
-    t_busline
-    WHERE
-    t_businfo.sBusNum = t_busline.sBusNum
-</sql:query>
+<%
+    request.setCharacterEncoding("utf-8");
+    response.setContentType("text/html;charset=utf-8");
+    String sCompName=new String(request.getParameter("sCompName").getBytes("ISO-8859-1"),"utf-8");
+%>
 
 
 <!DOCTYPE html>
@@ -49,12 +29,15 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
     <ul class="nav nav-tabs" rel="">
         <li class="active"><a href="javascript:void(0);">车辆管理</a></li>
         <li><a href="busesadd.jsp">增加车辆</a></li>
-        <li><a href="javascript:void(0);"></a></li>
+        <li><a href="javascript:history.go(-1);">返回</a></li>
     </ul>
 </header>
 <section>
+    <div>
+        <h2>公司:<%=sCompName%></h2>
+    </div>
     <article>
-        <form id="form1" name="form1" method="post" action="busesquery.jsp"
+        <form id="form1" name="form1" method="post" action="compbusesquery.jsp"
               class="form-inline form-group form-align">
             <select class="form-control" name="row">
                 <option value="sLineNum">所属线路</option>
@@ -75,18 +58,34 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                 <th>是否使用</th>
                 <th>所属线路</th>
             </tr>
+
             <%--这行开始做for循环--%>
-            <c:forEach var="row" items="${result.rows}">
-                <tr>
-                    <td><a href='busesedit.jsp?iBusId="${row.iBusId}"'>修改</a>&nbsp;
-                        <a href='javascript:confirmDelete(${row.iBusLineId})'>删除</a></td>
-                    <td><c:out value="${row.sBusNum}"/></td>
-                    <td><c:out value="${row.sLicenseNum}"/></td>
-                    <td><c:out value="${row.sBusNote}"/></td>
-                    <td><c:out value="${row.bBusLineActive>0?'是':'否'}"/></td>
-                    <td><c:out value="${row.sLineNum}"/></td>
-                </tr>
-            </c:forEach>
+            <%
+                String sCompNum=request.getParameter("sCompNum");
+                try {
+                    Class.forName("com.mysql.jdbc.Driver");
+                    Connection conn= DriverManager.getConnection("jdbc:mysql://115.159.216.56:3306/busesdata?useUnicode=true&characterEncoding=UTF-8","root","qZL3KXdoWRFj");
+                    Statement stat=conn.createStatement();
+                    String sql="SELECT t_businfo.iBusId,t_businfo.sBusNum,t_businfo.sLicenseNum,t_businfo.sBusNote,t_busline.sLineNum," +
+                            "t_busline.bBusLineActive,t_busline.iBusLineId FROM  t_businfo,t_busline  WHERE t_businfo.sBusNum = t_busline.sBusNum AND t_businfo.sCompNum="+sCompNum;
+                    ResultSet rs=stat.executeQuery(sql);
+                    while (rs.next()){
+            %>
+            <tr>
+                <td><a href='busesedit.jsp?iBusId="<%=rs.getString(1)%>"'>修改</a>&nbsp;
+                    <a href='javascript:confirmDelete(<%=rs.getString(7)%>)'>删除</a></td>
+                <td><%=rs.getString(2)%></td>
+                <td><%=rs.getString(3)%></td>
+                <td><%=rs.getString(4)%></td>
+                <td><c:out value="${rs.getString(6)>0?'是':'否'}"/></td>
+                <td><c:out value="<%=rs.getString(5)%>"/></td>
+            </tr>
+            <%
+                    }
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+            %>
         </table>
         <P class="btn-container">
 

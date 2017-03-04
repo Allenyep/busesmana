@@ -5,38 +5,11 @@
   Time: 14:09
   To change this template use File | Settings | File Templates.
 --%>
-<%--
-  Created by IntelliJ IDEA.
-  User: Allen
-  Date: 2017/2/12
-  Time: 20:25
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.io.*,java.util.*,java.sql.*"%>
 <%@ page import="javax.servlet.http.*,javax.servlet.*" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
-
-<!--
-JDBC 驱动名及数据库 URL
-数据库的用户名与密码，需要根据自己的设置
-useUnicode=true&characterEncoding=utf-8 防止中文乱码
--->
-<sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
-                   url="jdbc:mysql://115.159.216.56:3306/busesdata?useUnicode=true&characterEncoding=utf-8"
-                   user="root"  password="qZL3KXdoWRFj"/>
-
-<sql:query dataSource="${snapshot}" var="result">
-    SELECT
-    iSiteId,
-    iSiteNum,
-    iSiteName,
-    bSiteActive,
-    sSiteNote
-    FROM
-    t_siteinfo
-</sql:query>
 
 
 <!DOCTYPE html>
@@ -79,16 +52,36 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                 <th>备注</th>
             </tr>
             <%--这行开始做for循环--%>
-            <c:forEach var="row" items="${result.rows}">
+            <%
+                request.setCharacterEncoding("utf-8");
+                response.setContentType("text/html;charset=utf-8");
+                String content=request.getParameter("content");
+                try {
+                    Class.forName("com.mysql.jdbc.Driver");
+                    Connection conn= DriverManager.getConnection("jdbc:mysql://115.159.216.56:3306/busesdata?useUnicode=true&characterEncoding=UTF-8","root","qZL3KXdoWRFj");
+                    Statement stat=conn.createStatement();
+                    String sql="SELECT  iSiteId, iSiteNum, iSiteName, bSiteActive, sSiteNote  FROM t_siteinfo where iSiteName like '%"+content+"%'";
+                    ResultSet rs=stat.executeQuery(sql);
+                    while (rs.next()){
+                        String bool="否";
+                        if (rs.getString(4).equals("1")){
+                            bool="是";
+                        }
+            %>
                 <tr>
-                    <td><a href='stationedit.jsp?iSiteId="${row.iSiteId}"'>修改</a>&nbsp;
-                        <a href='javascript:confirmDelete(${row.iSiteId})'>删除</a></td>
-                    <td><c:out value="${row.iSiteNum}"/></td>
-                    <td><c:out value="${row.iSiteName}"/></td>
-                    <td><c:out value="${row.bSiteActive>0?'是':'否'}"/></td>
-                    <td><c:out value="${row.sSiteNote}"/></td>
+                    <td><a href='stationedit.jsp?iSiteId="<%=rs.getString(1)%>"'>修改</a>&nbsp;
+                        <a href='javascript:confirmDelete(<%=rs.getString(1)%>)'>删除</a></td>
+                    <td><%=rs.getString(2)%></td>
+                    <td><%=rs.getString(3)%></td>
+                    <td><%=rs.getString(3)%></td>
+                    <td><%=bool%></td>
                 </tr>
-            </c:forEach>
+            <%
+                    }
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+            %>
         </table>
         <P class="btn-container">
 

@@ -11,11 +11,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
-  <title>Cloud Admin | Login</title>
+  <title>公交线路管理</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <!-- STYLESHEETS --><!--[if lt IE 9]><script src="BusesIndex/js/flot/excanvas.min.js"></script><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
   <link rel="stylesheet" type="text/css" href="BusesIndex/css/cloud-admin.css" >
 
   <link href="BusesIndex/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -25,8 +24,6 @@
   <link rel="stylesheet" type="text/css" href="BusesIndex/js/uniform/css/uniform.default.min.css" />
   <!-- ANIMATE -->
   <link rel="stylesheet" type="text/css" href="BusesIndex/css/animatecss/animate.min.css" />
-  <!-- FONTS -->
-  <link href='http://fonts.useso.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 </head>
 <body class="login">
 <!-- PAGE -->
@@ -52,22 +49,22 @@
       <div class="row">
         <div class="col-md-4 col-md-offset-4">
           <div class="login-box-plain">
-            <h2 class="bigintro">Sign In</h2>
+            <h2 class="bigintro">登 录</h2>
             <div class="divide-40"></div>
             <form role="form" action="login_in.jsp">
               <div class="form-group">
-                <label for="exampleInputEmail1">Name</label>
+                <label for="exampleInputEmail1">账号</label>
                 <i class="fa fa-envelope"></i>
                 <input type="text" class="form-control" id="exampleInputEmail1" name="userName" >
               </div>
               <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
+                <label for="exampleInputPassword1">密码</label>
                 <i class="fa fa-lock"></i>
                 <input type="password" class="form-control" id="exampleInputPassword1" name="passWord">
               </div>
               <div class="form-actions">
                 <label class="checkbox"> <input type="checkbox" class="uniform" value=""> Remember me</label>
-                <button type="submit" class="btn btn-danger">Submit</button>
+                <button type="submit" class="btn btn-danger">登录</button>
               </div>
             </form>
             <!-- SOCIAL LOGIN -->

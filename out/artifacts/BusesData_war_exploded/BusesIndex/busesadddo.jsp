@@ -48,7 +48,7 @@
         //所属公司
         String sCompNum=request.getParameter("sCompNum");
 
-        String sqlbus = "insert into t_businfo(iBusId,sBusNum,sCompNum,sLicenseNum,sBusNote) values(null,'"+sBusNum+"','"+sCompNum+"','"+sLicenseNum+"','"+sBusNote+"')";
+        String sqlbus = "insert into t_businfo(iBusId,sBusNum,sCompNum,sLicenseNum,sBusNote) values('','"+sBusNum+"','"+sCompNum+"','"+sLicenseNum+"','"+sBusNote+"')";
         String sqlbusline="insert into t_busline(iBusLineId,sBusNum,sLineNum,dBusLineActiveTime,bBusLineActive) values(null,'"+sBusNum+"',"+sLineNum+",null,1)";
         int bool1= 0;int bool2=0;
         try {

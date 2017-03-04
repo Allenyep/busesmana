@@ -65,16 +65,29 @@
         System.out.println("连接数据库失败 ！");
         e.printStackTrace();
     }
-
     String sql = "insert into t_lineinfo(iLineId,sLineNum,sCompNum,iOSite,iDSite,iSSite,bUpDown,tStartTime,tEndTime,bLineActive,dLineActiveTime,sSiteVersion,sLineNote) values(null,'"+sLineNum+"','"+sCompNum+"','"+iOSite+"','"+iDSite+"','"+iSSite+"','"+bUpDown+"','"+tStartTime+"','"+tEndTime+"','"+1+"',"+null+",'"+sSiteVersion+"','"+sLineNote+"')";
-    int bool= 0;
+    //插入起点
+    String sql1="INSERT INTO t_siteline(iSiteLineId,iSiteNum,sLineNum,iSiteSqu,dSiteLineActiveTime,bODSSite,bSiteLineActive) VALUES(NULL,"+iOSite+","+sLineNum+","+1+",null,2,1)";
+    //插入终点
+    String sql2="INSERT INTO t_siteline(iSiteLineId,iSiteNum,sLineNum,iSiteSqu,dSiteLineActiveTime,bODSSite,bSiteLineActive) VALUES(NULL,"+iDSite+","+sLineNum+","+2+",null,2,1)";
+    //插入发车站
+    String sql3=null;
+    if(!iSSite.equals(iOSite)&&!iSSite.equals(iDSite)) {
+        sql3 = "INSERT INTO t_siteline(iSiteLineId,iSiteNum,sLineNum,iSiteSqu,dSiteLineActiveTime,bODSSite,bSiteLineActive) VALUES(NULL,"+iDSite+","+sLineNum+","+3+",null,2,1)";
+    }
+    int bool= 0,bool1=0,bool2=0,bool3=0;
     try {
         bool = stat.executeUpdate(sql);
+        bool1= stat.executeUpdate(sql1);
+        bool2= stat.executeUpdate(sql2);
+        if(sql3!=null) {
+            bool3 = stat.executeUpdate(sql3);
+        }
     } catch (SQLException e) {
         e.printStackTrace();
     }
 //    bool=stat.executeUpdate(sql);
-    if(bool==1)
+    if(bool==1&&bool1==1&&bool2==1)
         out.print("数据插入操作成功！"+sSiteVersion);
     else
         out.print("数据插入操作失败！请联系系统管理员");

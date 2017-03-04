@@ -61,13 +61,13 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
 </header>
 <section>
     <article>
-        <form id="form1" name="form1" method="post" action=""
+        <form id="form1" name="form1" method="post" action="linequery.jsp"
               class="form-inline form-group form-align">
-            <select class="form-control">
-                <option>车辆编号</option>
-                <option>车辆线路</option>
+            <select class="form-control" name="row">
+                <option value="sLineNum">线路编号</option>
+                <option value="sSiteVersion">线路名称</option>
             </select>
-            <input type="input" name="suserName" id="suserName"
+            <input type="input" name="content" id="content"
                    placeholder="请输入查询内容!" class="form-control input-sm input-size " />
             <input type="submit" name="submit" value="查 询" class="btn btn-warning " />
         </form>
@@ -95,7 +95,7 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                     <td><c:out value="${row.tEndTime}"/></td>
                     <td><c:out value="${row.bUpDown>0?'上行':'下行'}"/></td>
                     <td><c:out value="${row.bLineActive>0?'是':'否'}"/></td>
-                    <td><a href='stationmana.jsp?iLineId="${row.iLineId}"'>线路车站</a></td>
+                    <td><a href='stationmana.jsp?iLineId="${row.iLineId}"'><strike>线路车站</strike></a></td>
                 </tr>
             </c:forEach>
         </table>

@@ -59,13 +59,12 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
 </header>
 <section>
     <article>
-        <form id="form1" name="form1" method="post" action=""
+        <form id="form1" name="form1" method="post" action="stationquery.jsp"
               class="form-inline form-group form-align">
             <select class="form-control">
-                <option>车站编号</option>
                 <option>车站名称</option>
             </select>
-            <input type="input" name="suserName" id="suserName"
+            <input type="input" name="content" id="content"
                    placeholder="请输入查询内容!" class="form-control input-sm input-size " />
             <input type="submit" name="submit" value="查 询" class="btn btn-warning " />
         </form>
@@ -78,7 +77,6 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                 <th>车站名称</th>
                 <th>是否启用</th>
                 <th>备注</th>
-                <th>过站线路</th>
             </tr>
             <%--这行开始做for循环--%>
             <c:forEach var="row" items="${result.rows}">
@@ -89,14 +87,10 @@ useUnicode=true&characterEncoding=utf-8 防止中文乱码
                     <td><c:out value="${row.iSiteName}"/></td>
                     <td><c:out value="${row.bSiteActive>0?'是':'否'}"/></td>
                     <td><c:out value="${row.sSiteNote}"/></td>
-                    <td><a href='stationmana.jsp?iSiteId="${row.iSiteId}"'>过站线路</a></td>
                 </tr>
             </c:forEach>
         </table>
         <P class="btn-container">
-            <%--<input type="button" value="增加mac" name="" class="btn btn-primary btn-sm" onclick="add()">--%>
-            <%--<input type="button" value="更新mac" name="" class="btn btn-success btn-sm" onclick="update()">--%>
-            <%--<input type="button" value="删除mac" name="" class="btn btn-danger btn-sm" onclick="deleted()">--%>
 
         <ul class="list-inline" style="float: right;">
             <li><a href="#">上一页</a></li>
